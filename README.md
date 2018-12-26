@@ -1,3 +1,5 @@
+## Basic usage
+
 1. Clone repo
 2. Start docker
 3. Run rails new command: `docker-compose run web rails new . --api --force --no-ri --no-rdoc -T --database=postgresql`
@@ -22,3 +24,4 @@
     database: myapp_test
   ```
 6. Run `docker-compose up`
+7. In a new tab, run `docker-compose run web rails db:create`
